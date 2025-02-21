@@ -50,7 +50,7 @@ function App() {
       <Header headProducts={headProducts} products={products} increment={increment} theme={theme} />
       <Items products={products} reset={reset} deleteAll={deleteAll} increment={increment} decrement={decrement} deleteItem={deleteItem} theme={theme} switchTheme={switchTheme} />
       <div>
-        <h1 className={`${!theme ? "text-black" : 'text-white'} text-center text-lg font-bold p-3`}> Designed By: Mostafa Atta</h1>
+        <h1 className={`${!theme ? "text-black" : 'text-white'} text-center text-lg font-bold p-3`}> 2025 Designed By: Mostafa Atta</h1>
       </div>
     </div>
   )
